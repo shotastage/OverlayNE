@@ -7,3 +7,29 @@ DerivedData/
 .swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+*.wb64
+*.wab1
+*.wab2 # Feature Version
+*.wab3 # Feature Version
+
+workspace/
+memo/
+backup/
+
+*.pc
+MEMO
+*.dylib
+*.wasm
+
+
+# Rust Related Files
+*target/
+/Cargo.lock
+*.a
+artifacts/
+
+
+# WebAssembly Related Files
+*.wasmu
+
+.vscode/
